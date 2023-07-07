@@ -1,0 +1,129 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    color: #333;
+}
+/*HEADER SECTION START*/
+header .dropdown-menu .dropdown-item:hover{
+    background: #fff;
+    cursor: pointer;
+    color: #ed1651;
+    margin-left: 15px;
+    transition: all 0.5s;
+}
+header{
+    background: #fff;
+}
+
+header .dropdown-menu .dropdown-item:hover::before{
+    width:15px;
+
+}
+header .dropdown-menu .dropdown-item::before{
+    content: ;
+    position: absolute;
+    left: 0px;
+    top:50px;
+    display: inline;
+    transform: translateY(-0.5s);
+    width: 0px;
+    height: 1px;
+    background: #ed1651;
+    transition: all 0.5s;
+
+}
+/*HEADER SECTION START*/
+
+/*NAVBAR SECTION START */
+.online button{
+    padding-left: 10px 15px;
+ background-color: #ed1651;
+border: #ed1651 1px solid;
+position: relative;
+display: inline;
+pointer-events: auto;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    color: #fff;
+    font-weight: 600;
+
+}
+.online button:hover{
+    background-color:rgb(51, 48, 48) !important;
+    color: #fff;
+    transition: all 0.3s ease-in;
+}
+.bar{
+    color: #ed1651;
+   
+}
+/*NAVBAR SECTION END */
+/*Slider SECTION START*/
+.carousel-indicators [data-bs-target]{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/*Slider SECTION END*/
+.explore{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.5;
+    font-weight: 400;
+}
+/*THE MOST SECTION START*/
+.more button{
+    border:0px 0px #333;
+}
+/* THE MOST SECTION END */
+/* FOOTER SECTION START */
+.foot{
+
+    background-color:rgb(251, 243, 251);
+}
+/* FOOTER SECTION START */
+.playButton{
+border-radius: 50%;
+background: #ed1651;
+position: absolute;
+
+}
+.anchorPlay{
+    left: 44% !important;
+    top: 40% ! important;
+    
+
+}
+/* gallary section start */
+.gallery img:hover{
+    background: #333;
+    width:100px;
+    height:50px;
+}
+/* gallary section start */
+
+/* CONTACT SECTION START */
+
+  .make button{
+   
+   border:2px solid #cb345c;}
+   
+   .make button:hover{
+    background: #ed1651;
+   }
+.make2{
+    width:110px;
+    border:1px solid #ed1651;
+}
+.make2:hover{
+    background-color:#ed1651 ;
+}
+/* CONTACT SECTION END*/
+
+
+    
